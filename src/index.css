@@ -1,0 +1,61 @@
+ul{
+    margin: 0;
+    padding: 0 !important;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+.sidebar{
+    width:280px;
+    height: 100vh;
+}
+.postWrap{
+    width:100%;
+    margin: 0 10px;
+
+}
+.cardgroup{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wrapper{
+    display: flex;
+}
+.header{
+    margin-bottom: 10px;
+}
+.form_cover{
+    width: 100%;
+    padding: 0 10px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+.deleteIcon {
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    background: red;
+    padding: 1px 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+}
+.post{
+    position: relative;
+}
+.reaction {
+    background: aquamarine;
+    padding: 5px;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+.hash_data{
+    display: flex;
+}
+.hash_data li{
+    margin: 0 2px;
+}
